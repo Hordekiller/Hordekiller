@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Courier New', monospace; background: #0d1117; color: #e6edf3; min-height: 100vh; padding: 32px 24px; }
+  
+  .hero { text-align: center; padding: 48px 0 40px; border-bottom: 1px solid #21262d; margin-bottom: 40px; }
+  .ascii { font-size: 7px; line-height: 1.15; color: #58a6ff; letter-spacing: 0; white-space: pre; overflow: hidden; display: inline-block; max-width: 100%; }
+  .tagline { margin-top: 20px; font-size: 14px; color: #8b949e; letter-spacing: 3px; text-transform: uppercase; font-family: 'Courier New', monospace; }
+  .badges { display: flex; gap: 10px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+  .badge { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 6px 14px; font-size: 13px; color: #58a6ff; font-family: 'Courier New', monospace; text-decoration: none; transition: border-color 0.2s; }
+  .badge:hover { border-color: #58a6ff; }
+
+  .section { margin-bottom: 40px; }
+  .section-title { font-size: 13px; color: #8b949e; letter-spacing: 4px; text-transform: uppercase; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 1px solid #21262d; font-family: 'Courier New', monospace; }
+  .section-title span { color: #58a6ff; margin-right: 8px; }
+
+  .about-block { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 24px; font-size: 14px; line-height: 1.8; color: #c9d1d9; }
+  .code-block { background: #0d1117; border: 1px solid #21262d; border-radius: 6px; padding: 16px 20px; margin-top: 16px; font-size: 13px; line-height: 1.9; color: #79c0ff; }
+  .code-block .kw { color: #ff7b72; }
+  .code-block .fn { color: #d2a8ff; }
+  .code-block .cm { color: #484f58; }
+
+  .stack-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+  .stack-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 16px 20px; }
+  .stack-card .domain { font-size: 11px; color: #8b949e; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px; }
+  .stack-card .tools { font-size: 13px; color: #c9d1d9; line-height: 1.7; }
+  .stack-card .icon { font-size: 18px; margin-bottom: 8px; display: block; }
+
+  .proj-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 20px 24px; margin-bottom: 14px; display: flex; gap: 20px; align-items: flex-start; transition: border-color 0.2s; cursor: pointer; text-decoration: none; }
+  .proj-card:hover { border-color: #58a6ff; }
+  .proj-icon { font-size: 28px; flex-shrink: 0; width: 44px; height: 44px; background: #0d1117; border-radius: 8px; display: flex; align-items: center; justify-content: center; border: 1px solid #21262d; }
+  .proj-body { flex: 1; }
+  .proj-title { font-size: 15px; font-weight: 600; color: #58a6ff; margin-bottom: 4px; font-family: 'Courier New', monospace; }
+  .proj-desc { font-size: 13px; color: #8b949e; line-height: 1.6; margin-bottom: 10px; }
+  .proj-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { background: #1f2937; border: 1px solid #374151; color: #93c5fd; font-size: 11px; padding: 2px 8px; border-radius: 20px; font-family: 'Courier New', monospace; }
+  .tag.php { border-color: #7c3aed; color: #c4b5fd; background: #1e1b4b; }
+  .tag.java { border-color: #b45309; color: #fcd34d; background: #1c1a10; }
+  .tag.python { border-color: #0f766e; color: #5eead4; background: #0c1a19; }
+  .tag.kotlin { border-color: #be123c; color: #fda4af; background: #1c0f13; }
+  .tag.react { border-color: #0369a1; color: #7dd3fc; background: #0c1826; }
+
+  .stats-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .stat-img { width: 100%; border-radius: 8px; border: 1px solid #30363d; display: block; }
+
+  .fun-list { list-style: none; }
+  .fun-list li { padding: 10px 0; border-bottom: 1px solid #21262d; font-size: 14px; color: #c9d1d9; display: flex; gap: 12px; align-items: flex-start; }
+  .fun-list li:last-child { border-bottom: none; }
+  .fun-list .bullet { color: #58a6ff; font-weight: bold; flex-shrink: 0; }
+
+  .footer { text-align: center; padding-top: 32px; border-top: 1px solid #21262d; }
+  .footer-quote { font-size: 13px; color: #484f58; font-style: italic; margin-bottom: 12px; }
+  .footer-links { font-size: 13px; color: #8b949e; }
+  .footer-links a { color: #58a6ff; text-decoration: none; }
+
+  @media (max-width: 480px) {
+    .ascii { font-size: 4px; }
+    .stats-row { grid-template-columns: 1fr; }
+    .proj-card { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <pre class="ascii">
+ ██╗  ██╗ ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗██████╗
+ ██║  ██║██╔═══██╗██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
+ ███████║██║   ██║██████╔╝██║  ██║█████╗  █████╔╝ ██║██║     ██║     █████╗  ██████╔╝
+ ██╔══██║██║   ██║██╔══██╗██║  ██║██╔══╝  ██╔═██╗ ██║██║     ██║     ██╔══╝  ██╔══██╗
+ ██║  ██║╚██████╔╝██║  ██║██████╔╝███████╗██║  ██╗██║███████╗███████╗███████╗██║  ██║
+ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝</pre>
+  <div class="tagline">Builder &nbsp;·&nbsp; Breaker &nbsp;·&nbsp; Fixer</div>
+  <div class="badges">
+    <a href="https://catus.ir" class="badge">🌐 catus.ir</a>
+    <a href="https://github.com/hordekiller" class="badge">🐙 GitHub</a>
+    <span class="badge">📍 Tehran, Iran</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title"><span>//</span>who am i</div>
+  <div class="about-block">
+    An Iranian developer who loves to break things, understand how they work, then build them better.<br>
+    From WordPress plugins to Android apps — if it's interesting, I'll ship it.
+    <div class="code-block">
+<span class="kw">while</span> (alive) {<br>
+&nbsp;&nbsp;<span class="fn">eat</span>();<br>
+&nbsp;&nbsp;<span class="fn">code</span>();<br>
+&nbsp;&nbsp;<span class="fn">break_things</span>();<br>
+&nbsp;&nbsp;<span class="fn">fix_things_better</span>();<br>
+&nbsp;&nbsp;<span class="fn">sleep</span>(); <span class="cm">// optional</span><br>
+}
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title"><span>//</span>tech stack</div>
+  <div class="stack-grid">
+    <div class="stack-card">
+      <span class="icon">🌐</span>
+      <div class="domain">Web</div>
+      <div class="tools">PHP · WordPress<br>HTML · CSS · MySQL</div>
+    </div>
+    <div class="stack-card">
+      <span class="icon">📱</span>
+      <div class="domain">Android</div>
+      <div class="tools">Java · Kotlin<br>Android SDK · Gradle</div>
+    </div>
+    <div class="stack-card">
+      <span class="icon">🔧</span>
+      <div class="domain">Tools & Infra</div>
+      <div class="tools">Git · Linux<br>Python · cPanel</div>
+    </div>
+    <div class="stack-card">
+      <span class="icon">⚛️</span>
+      <div class="domain">Frontend</div>
+      <div class="tools">React · Tailwind CSS<br>HTML · JavaScript</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title"><span>//</span>featured projects</div>
+
+  <a href="https://github.com/Hordekiller/atlas-backup-migration" class="proj-card" style="display:flex; text-decoration:none;">
+    <div class="proj-icon">🔒</div>
+    <div class="proj-body">
+      <div class="proj-title">Atlas Backup & Migration</div>
+      <div class="proj-desc">Production-ready WordPress backup, migration & granular import/export plugin. Full migration packages with standalone installer, WooCommerce/Elementor exports, and secure site-to-site sync.</div>
+      <div class="proj-tags">
+        <span class="tag php">PHP</span>
+        <span class="tag">WordPress</span>
+        <span class="tag">WooCommerce</span>
+        <span class="tag">Elementor</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://github.com/Hordekiller/DNS-To-Go-master" class="proj-card" style="display:flex; text-decoration:none;">
+    <div class="proj-icon">📡</div>
+    <div class="proj-body">
+      <div class="proj-title">DNS To Go</div>
+      <div class="proj-desc">High-performance, gamer-focused DNS optimizer for Android. DNS-over-HTTPS, per-app routing, ad-blocking, live stats dashboard, and near-zero latency caching. Built for gamers and streamers.</div>
+      <div class="proj-tags">
+        <span class="tag java">Java</span>
+        <span class="tag">Android</span>
+        <span class="tag">DNS</span>
+        <span class="tag">VPN</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://github.com/Hordekiller/atlas-login" class="proj-card" style="display:flex; text-decoration:none;">
+    <div class="proj-icon">🎨</div>
+    <div class="proj-body">
+      <div class="proj-title">Atlas Login</div>
+      <div class="proj-desc">A modern, stylish, and responsive login page built with React + Tailwind CSS. Clean UI, smooth animations, production-ready component.</div>
+      <div class="proj-tags">
+        <span class="tag react">React</span>
+        <span class="tag">Tailwind CSS</span>
+        <span class="tag">HTML</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://github.com/Hordekiller/cpanel-file-mover" class="proj-card" style="display:flex; text-decoration:none;">
+    <div class="proj-icon">⚙️</div>
+    <div class="proj-body">
+      <div class="proj-title">cPanel File Mover</div>
+      <div class="proj-desc">Python utility for automating file operations via cPanel. Simplifies bulk file management for hosting environments without manual FTP work.</div>
+      <div class="proj-tags">
+        <span class="tag python">Python</span>
+        <span class="tag">cPanel</span>
+        <span class="tag">Automation</span>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://github.com/Hordekiller/Planner-APK" class="proj-card" style="display:flex; text-decoration:none;">
+    <div class="proj-icon">📋</div>
+    <div class="proj-body">
+      <div class="proj-title">Planner APK</div>
+      <div class="proj-desc">A task planning Android application built with Kotlin. Lightweight, offline-first, with clean material UI for managing daily tasks and schedules.</div>
+      <div class="proj-tags">
+        <span class="tag kotlin">Kotlin</span>
+        <span class="tag">Android</span>
+      </div>
+    </div>
+  </a>
+</div>
+
+<div class="section">
+  <div class="section-title"><span>//</span>github stats</div>
+  <div class="stats-row">
+    <img class="stat-img" src="https://github-readme-stats.vercel.app/api?username=hordekiller&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="GitHub Stats" />
+    <img class="stat-img" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hordekiller&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff" alt="Top Languages" />
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title"><span>//</span>a few things about me</div>
+  <ul class="fun-list">
+    <li><span class="bullet">→</span> Built in Iran, shipping for the world</li>
+    <li><span class="bullet">→</span> Coffee-powered coder — no coffee, only bugs</li>
+    <li><span class="bullet">→</span> If it's not working, I just haven't figured out <em>why</em> it's working yet</li>
+    <li><span class="bullet">→</span> Turned gaming obsession into infrastructure knowledge</li>
+  </ul>
+</div>
+
+<div class="footer">
+  <div class="footer-quote">"The best code is the code that solves a real problem."</div>
+  <div class="footer-links">
+    <a href="https://catus.ir">catus.ir</a> &nbsp;·&nbsp; Tehran, Iran &nbsp;·&nbsp; Building stuff that matters
+  </div>
+</div>
+
+</body>
+</html>
