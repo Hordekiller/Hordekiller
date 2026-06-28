@@ -16,6 +16,7 @@
 [![Website](https://img.shields.io/badge/🌐_catus.ir-000000?style=for-the-badge)](https://catus.ir)
 [![GitHub](https://img.shields.io/badge/GitHub-Hordekiller-181717?style=for-the-badge&logo=github)](https://github.com/hordekiller)
 [![Location](https://img.shields.io/badge/📍_Tehran,_Iran-333333?style=for-the-badge)](https://catus.ir)
+![Profile Views](https://komarev.com/ghpvc/?username=Hordekiller&label=Profile%20Views&color=0e75b6&style=flat)
 
 </div>
 
