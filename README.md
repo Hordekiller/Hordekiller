@@ -1,247 +1,223 @@
 <div align="center">
 
+██╗  ██╗ ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗██████╗ 
+██║  ██║██╔═══██╗██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝██╔══██╗
+███████║██║   ██║██████╔╝██║  ██║█████╗  █████╔╝ ██║██║     ██║     █████╗  ██████╔╝
+██╔══██║██║   ██║██╔══██╗██║  ██║██╔══╝  ██╔═██╗ ██║██║     ██║     ██╔══╝  ██╔══██╗
+██║  ██║╚██████╔╝██║  ██║██████╔╝███████╗██║  ██╗██║███████╗███████╗███████╗██║  ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
+
+</div>
+```markdown
+# <p align="center">Hordekiller</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,45,90,135&height=200&section=header&text=Hordekiller&fontSize=80&fontColor=ffffff&desc=Senior%20Software%20Engineer%20%7C%20Open%20Source%20Architect%20%7C%20AI%20Engineering" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira%20Code&size=22&duration=3000&pause=1000&color=7B68EE&center=true&vCenter=true&width=500&lines=Building+Scalable+Ecosystems;Plugin+Developer+for+WordPress+%26+Elementor;Android+App+Dev+Expert;Open+Source+Advocate" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Computer_Science-B.Sc-7B68EE?style=for-the-badge" alt="Education" />
+  <img src="https://img.shields.io/badge/Location-Tehran%2C_Iran-indigo?style=for-the-badge" alt="Location" />
+</p>
+
+<p align="center">
+  <a href="https://hordekiller.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=7B68EE" /></a>
+  <a href="https://linkedin.com/in/hordekiller"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:hordekiller@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Hordekiller"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Hordekiller&label=Profile%20Views&color=7B68EE&style=flat-square" />
+  <img src="https://img.shields.io/github/followers/Hordekiller?label=Followers&style=flat-square&color=7B68EE" />
+  <img src="https://img.shields.io/github/stars/Hordekiller?label=Stars&style=flat-square&color=7B68EE" />
+</p>
+
+---
+
+## 👨‍💻 About Me
+I am a passionate Software Engineer with a deep obsession for building clean, scalable, and high-performance applications. My expertise spans the entire development lifecycle, from architecting robust backend systems to crafting intuitive plugin ecosystems for the WordPress world.
+
+- 🛠 **Software Engineering:** Specializing in plugin development, API design, and system architecture.
+- 🤖 **AI/ML Integration:** Leveraging LLMs and Agentic workflows to automate development tasks.
+- 📱 **Mobile Dev:** Crafting seamless user experiences on Android platforms.
+- 🚀 **Open Source:** Dedicated to contributing back to the ecosystem through tools like TypeFigma and DNSChanger.
+- 💼 **Open To:** Freelance architecture consulting, open-source collaborations, and specialized development projects.
+
+---
+
+## 🛠 Tech Stack
+
+### Languages
+<img src="https://skillicons.dev/icons?i=java,kotlin,php,js,ts,python,cpp" />
+
+### Frontend
+<img src="https://skillicons.dev/icons?i=html,css,react,vue,tailwind,figma" />
+
+### Backend & Databases
+<img src="https://skillicons.dev/icons?i=wordpress,mysql,postgresql,nodejs,express,sqlite" />
+
+### Cloud, DevOps & Tooling
+<img src="https://skillicons.dev/icons?i=docker,git,linux,bash,nginx,cloudflare" />
+
+---
+
+## 🧠 AI / ML Expertise
+
+| Domain | Proficiency | Details |
+| :--- | :---: | :--- |
+| LLM Fine-tuning | Advanced | Optimization of LLM performance for specific tasks. |
+| Agentic Workflows | Expert | Building autonomous agents (MCP, LangChain). |
+| Data Processing | Intermediate | Efficient data pipeline management and ETL. |
+
+---
+
+## 📂 Featured Projects
+
+<details>
+<summary><b>TypeFigma</b></summary>
+
+A bridge between design and code, streamlining the workflow for UI/UX teams.
+
+| Stack | Scale | Performance | Security | Impact | Repository |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| TS, Figma API | 500+ Users | Optimized | High | Medium | [View](https://github.com/Hordekiller/TypeFigma) |
+
+Built to solve the disconnect between Figma design layers and production code.
+</details>
+
+<details>
+<summary><b>DNSChanger</b></summary>
+
+A high-performance Android utility to bypass restrictions and improve network latency.
+
+| Stack | Scale | Performance | Security | Impact | Repository |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Kotlin | 10k+ Downloads | Native Speed | Secure | High | [View](https://github.com/Hordekiller/DNSChanger) |
+
+Engineered for reliability and low battery consumption.
+</details>
+
+---
+
+## 💼 Experience
+
+### Senior Developer & Architect
+**Freelance / Open Source**
+*2020 - Present*
+*   Architecting WordPress plugins for high-traffic environments.
+*   Developing custom Android solutions for network management.
+*   Leading migration projects to modern PHP/TS stacks.
+*   **Skills:** WordPress, PHP, Kotlin, System Architecture, Performance Tuning.
+
+---
+
+## 🏆 Achievements
+
+<p align="center">
+
+| Recognition | Details |
+| :--- | :--- |
+| **Top Contributor** | Recognized in several open-source plugin repositories. |
+| **Community Impact** | 10k+ active users across public-facing projects. |
+| **Code Efficiency** | Optimized legacy plugin systems for 40% performance gains. |
+
+</p>
+
+---
+
+## 📜 Certifications
+
+**Oracle**
+- <img src="https://img.shields.io/badge/Oracle-Java_Associate-red?style=flat-square" />
+
+**AWS**
+- <img src="https://img.shields.io/badge/AWS-Cloud_Practitioner-orange?style=flat-square" />
+
+**Cisco**
+- <img src="https://img.shields.io/badge/Cisco-Networking_Essentials-blue?style=flat-square" />
+
+---
+
+## 💻 Coding Profiles
+
+<p align="center">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+  <img src="https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
+  <img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" />
+</p>
+
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Hordekiller&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hordekiller&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hordekiller&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Hordekiller&theme=radical" />
+</p>
+
+---
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hordekiller&theme=react-dark&hide_border=true&area=true" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Hordekiller/Hordekiller/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
+</p>
+
+---
+
+## 🎯 Current Focus
+
+```yaml
+learning:
+  - Advanced Agentic AI Workflows
+  - Distributed Systems Architecture
+building:
+  - MaddyPix Image Processing Engine
+  - Next-Gen WordPress Plugins
+exploring:
+  - Rust for System Programming
+open_to:
+  - Technical Consultancy
+  - Open Source Collaborations
 ```
- ██╗  ██╗ ██████╗ ██████╗ ██████╗ ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗
- ██║  ██║██╔═══██╗██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝
- ███████║██║   ██║██████╔╝██║  ██║█████╗  █████╔╝ ██║██║     ██║     █████╗  
- ██╔══██║██║   ██║██╔══██╗██║  ██║██╔══╝  ██╔═██╗ ██║██║     ██║     ██╔══╝  
- ██║  ██║╚██████╔╝██║  ██║██████╔╝███████╗██║  ██╗██║███████╗███████╗███████╗
- ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
+
+---
+
+## 📞 Connect
+
+<p align="center">
+  <a href="mailto:hordekiller@gmail.com">Gmail</a> |
+  <a href="https://linkedin.com/in/hordekiller">LinkedIn</a> |
+  <a href="https://github.com/Hordekiller">GitHub</a> |
+  <a href="https://hordekiller.github.io/">Portfolio</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,45,90,135&height=100&section=footer&text=Build%20Great%20Things&fontSize=30" />
+</p>
 ```
-
-# **Full-Stack Developer | Open Source Enthusiast | Problem Solver**
-
-*🇮🇷 Based in Tehran · 🌍 Building for the World*
-
-[![Website](https://img.shields.io/badge/🌐_catus.ir-000000?style=for-the-badge)](https://catus.ir)
-[![GitHub](https://img.shields.io/badge/GitHub-Hordekiller-181717?style=for-the-badge&logo=github)](https://github.com/hordekiller)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-![Profile Views](https://komarev.com/ghpvc/?username=Hordekiller&label=Profile%20Views&color=0e75b6&style=flat-square)
-
-</div>
-
----
-
-## 👋 **About Me**
-
-I'm a **full-stack developer** with a passion for building **production-ready applications** that solve real-world problems. With expertise spanning from WordPress plugins to Android apps, game development, and backend infrastructure, I specialize in:
-
-- 🏗️ **Building scalable web platforms** with focus on Iranian market needs
-- 🔧 **Problem-solving through code** — from security exploits to performance optimization
-- 📱 **Mobile-first development** with modern frameworks and best practices
-- 🎮 **Game development** using Godot and infrastructure knowledge from gaming
-- 💡 **Innovation in WordPress ecosystem** with custom plugins and performance tools
-
-```
-while (alive) {
-    learn();
-    build();
-    ship();
-    iterate();
-}
-```
-
----
-
-## 🛠️ **Tech Stack**
-
-<div align="center">
-
-### Languages & Frameworks
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=flat&logo=kotlin&logoColor=white)
-![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat&logo=godot-engine&logoColor=white)
-
-### Web Technologies
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat&logo=wordpress&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-
-### Mobile & Desktop
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
-
-### Tools & DevOps
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![cPanel](https://img.shields.io/badge/cPanel-FF6B35?style=flat&logo=cpanel&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-
-</div>
-
----
-
-## 🎯 **Featured Projects**
-
-### 🛍️ **Atlas Shop** — Full-Stack E-Commerce Platform
-**[→ View Repository](https://github.com/Hordekiller/Atlas-Shop)**
-
-A **production-ready e-commerce platform** built specifically for the Iranian market.
-- 🇮🇷 **100% Persian interface** with RTL support
-- 💳 **Iranian payment gateways** integration (PayPal, Shenase, etc.)
-- 📊 **Seller dashboard** with analytics and inventory management
-- 🚀 **Monorepo architecture** with TypeScript
-
-**Tech:** TypeScript · React · Node.js · MySQL · Docker
-
----
-
-### 🔒 **Atlas Backup & Migration** — WordPress Plugin
-**[→ View Repository](https://github.com/Hordekiller/atlas-backup-migration)**
-
-**Production-grade WordPress backup and migration solution** trusted for enterprise deployments.
-- 📦 **Full site migration** with ID remapping
-- 🔄 **Resumable AJAX imports** for large datasets
-- 🛒 **WooCommerce/Elementor** specialized exports
-- 🔐 **Secure site-to-site sync** with encryption
-- ⚡ **Incremental backups** for performance
-
-**Tech:** PHP · WordPress · MySQL · AJAX
-
----
-
-### 💼 **LUMORA** — Modern WordPress Admin Dashboard
-**[→ View Repository](https://github.com/Hordekiller/LUMORA)**
-
-**Next-gen WordPress dashboard** redefining the admin experience.
-- 🌙 **Dark mode** with system theme detection
-- 🇮🇷 **RTL & Persian translation** (fa_IR) built-in
-- ⌨️ **Command Palette** (Ctrl+K) for power users
-- 📱 **Mobile-first responsive design**
-- 🏷️ **White-label branding** support
-- ⚡ **Ultra-lightweight** (26KB initial JS)
-
-**Tech:** JavaScript · React · PHP · WordPress · Tailwind CSS
-
----
-
-### 🎮 **AtlasGame** — Strategy City-Builder
-**[→ View Repository](https://github.com/Hordekiller/AtlasGame)**
-
-**Inspired by Ikariam** — A strategic city-building game engine.
-- 🏙️ **Complex city management** mechanics
-- ⚔️ **Player-vs-Player warfare** systems
-- 💰 **Economic simulation** with resource trading
-- 🎨 **Built with Godot 4.7** for performance
-
-**Tech:** GDScript · Godot 4.7
-
----
-
-### 🛡️ **CoreWarden** — Exploit Detection Toolkit
-**[→ View Repository](https://github.com/Hordekiller/CoreWarden)**
-
-**Security-focused exploit detection** for AzerothCore game servers.
-- 🚨 **Gold duplication detection**
-- 📦 **Item duplication prevention**
-- 🏪 **Auction house abuse protection**
-- 📊 **Real-time analytics dashboard**
-
-**Tech:** C++ · AzerothCore · Game Security
-
----
-
-### 📱 **OffTune** — Multi-Platform Music Player
-**[→ View Repository](https://github.com/Hordekiller/OffTune)**
-
-**Modern music player** supporting multiple streaming services.
-- 🎵 **Beatport, SoundCloud, Tidal, YouTube** integration
-- 🔊 **High-quality audio** streaming
-- 📱 **Native Android** performance
-
-**Tech:** Kotlin · Android · Music APIs
-
----
-
-### 📡 **DNS To Go** — Gamer-Focused DNS Optimizer
-**[→ View Repository](https://github.com/Hordekiller/DNS-To-Go-master)**
-
-**High-performance DNS optimization** for mobile gaming.
-- ⚡ **DNS-over-HTTPS (RFC 8484)** support
-- 🎮 **Gaming mode** with latency optimization
-- 🛡️ **Ad-blocking engine** built-in
-- 📊 **Live performance stats** dashboard
-- 🚀 **Per-app routing** configuration
-
-**Tech:** Java · Android · DNS Protocol
-
----
-
-## 📊 **GitHub Statistics**
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hordekiller&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hordekiller&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e)
-
-</div>
-
----
-
-## 💼 **Services & Expertise**
-
-| Service | Details |
-|---------|---------|
-| **WordPress Development** | Custom plugins, theme customization, performance optimization |
-| **E-Commerce Solutions** | WooCommerce, custom platforms, payment gateway integration |
-| **Android Development** | Native apps, Kotlin/Java, Firebase integration |
-| **Web Applications** | Full-stack React/Node.js, TypeScript, API design |
-| **Game Development** | Godot, game mechanics, physics, network synchronization |
-| **Security Audits** | Code review, exploit detection, penetration testing |
-| **Performance Optimization** | Database tuning, caching strategies, code profiling |
-
----
-
-## 🌟 **What I'm Passionate About**
-
-- 🚀 **Shipping products** that users actually love
-- 🇮🇷 **Building for Iran** with international quality standards
-- 🔐 **Security-first development** mindset
-- 📚 **Continuous learning** from new technologies
-- 🤝 **Open source contribution** and community building
-- ⚡ **Performance optimization** at every level
-
----
-
-## 📞 **Let's Connect**
-
-<div align="center">
-
-**Interested in collaboration, mentoring, or discussing tech?**
-
-- 🌐 **Website:** [catus.ir](https://catus.ir)
-- 💬 **GitHub Issues:** [Create an issue](https://github.com/Hordekiller)
-- 📧 **Email:** [Get in touch](https://catus.ir)
-
-</div>
-
----
-
-## 📈 **Recent Focus**
-
-Currently working on:
-- ✅ **Enterprise WordPress solutions** with Indonesian market expansion
-- ✅ **E-commerce platform scaling** for high-traffic scenarios
-- ✅ **Game server infrastructure** optimization
-- ✅ **Open source WordPress plugins** ecosystem
-
----
-
-<div align="center">
-
-### *"The best code solves real problems for real people."*
-
-**Built with ❤️ in Tehran · Open to opportunities worldwide**
-
-⭐ If you find my work useful, please star the repositories!
-
-</div>
