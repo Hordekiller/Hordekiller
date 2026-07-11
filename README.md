@@ -200,24 +200,21 @@ building:
 exploring:
   - Rust for System Programming
 open_to:
-📞 Connect
-
-<p align=“center”>
-
-<a href="mailto:hordekiller@gmail.com">Gmail</a> |
-
-<a href=“https://linkedin.com/in/hordekiller”>LinkedIn</a> |
-
-<a href=“https://github.com/Hordekiller”>GitHub</a> |
-
-<a href=“https://hordekiller.github.io/”>Portfolio</a>
-
-</p>
-
-<p align=“center”>
-
-<img src=“https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,45,90,135&height=100&section=footer&text=Build Great Things&fontSize=30” />
-
-</p>
   - Technical Consultancy
   - Open Source Collaborations
+```
+
+---
+
+## 📞 Connect
+
+<p align="center">
+  <a href="mailto:hordekiller@gmail.com">Gmail</a> |
+  <a href="https://linkedin.com/in/hordekiller">LinkedIn</a> |
+  <a href="https://github.com/Hordekiller">GitHub</a> |
+  <a href="https://hordekiller.github.io/">Portfolio</a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,45,90,135&height=100&section=footer&text=Build%20Great%20Things&fontSize=30" />
+</p>
