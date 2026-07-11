@@ -9,8 +9,6 @@
 
 </div>
 
-# <p align="center">Hordekiller</p>
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,15,45,90,135&height=200&section=header&text=Hordekiller&fontSize=80&fontColor=ffffff&desc=Senior%20Software%20Engineer%20%7C%20Open%20Source%20Architect%20%7C%20AI%20Engineering" />
 </p>
