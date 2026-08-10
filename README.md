@@ -53,7 +53,6 @@ I'm a **full-stack developer** and **WordPress ecosystem specialist** with 10+ y
 - 📱 **Mobile Solutions** - Native Android apps with Kotlin and Java
 - 🌐 **WordPress Ecosystem** - Themes, plugins, optimization, and custom solutions
 - 🔧 **Developer Tools** - Automation, CLI tools, browser extensions, productivity software
-- 🤖 **AI/ML Integration** - LLM fine-tuning, agentic workflows, automation
 
 ### 💡 Core Values:
 - **Performance First** - Optimized code and efficient architecture
@@ -87,33 +86,22 @@ I'm a **full-stack developer** and **WordPress ecosystem specialist** with 10+ y
 ### **🏆 Enterprise & Business Solutions**
 
 <details open>
-<summary><b>📊 Mobaro - Beauty Salon Management System</b></summary>
-
-Professional PHP-based management platform for beauty salons and spas.
-- **Stack:** PHP MVC | MySQL | HTML/CSS | RESTful API
-- **Features:** Online booking, e-commerce, customer dashboard, inventory management, admin panel
-- **Scale:** Used by 100+ salons
-- **Repository:** [Mobaro](https://github.com/Hordekiller/mobaro)
-
-</details>
-
-<details>
-<summary><b>✨ Rozholy - Premium WordPress Theme</b></summary>
+<summary><b>✨ Umaru - Premium WordPress Theme</b></summary>
 
 Modern Full Site Editing (FSE) WordPress theme for beauty services with advanced features.
 - **Stack:** PHP | React | WordPress | Tailwind CSS | WooCommerce
 - **Features:** Appointment booking, customer profiles, payment gateway, RTL/Persian support, white-label branding
-- **Repository:** [Rozholy](https://github.com/Hordekiller/rozholy)
+- **Repository:** [Umaru](https://github.com/Hordekiller/umaru)
 
 </details>
 
 <details>
-<summary><b>🔌 Rozholy Companion - Advanced Plugin</b></summary>
+<summary><b>🔌 Umaru Companion - Advanced Plugin</b></summary>
 
 Companion plugin with booking management and React admin interface.
 - **Stack:** PHP | React | WordPress Gutenberg
 - **Features:** Appointment sync, customer notifications, calendar integration
-- **Repository:** [Rozholy Companion](https://github.com/Hordekiller/rozholy-companion)
+- **Repository:** [Umaru Companion](https://github.com/Hordekiller/umaru-companion)
 
 </details>
 
@@ -332,15 +320,15 @@ Real-time exploit detection for AzerothCore game servers.
 ## 📊 GitHub Analytics & Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Hordekiller&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Hordekiller&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hordekiller&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=Hordekiller&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hordekiller&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hordekiller&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
 </p>
 
 ---
@@ -348,7 +336,7 @@ Real-time exploit detection for AzerothCore game servers.
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Hordekiller&theme=radical&no-frame=true&margin-w=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy-orcin-eta.vercel.app/?username=Hordekiller&theme=radical&no-frame=true&margin-w=15" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -359,6 +347,10 @@ Real-time exploit detection for AzerothCore game servers.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hordekiller&theme=react-dark&hide_border=true&area=true&custom_title=Hordekiller%20Contribution%20Graph" alt="Contribution Graph" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Hordekiller/Hordekiller/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
+</p>
+
 ---
 
 ## 🎯 Current Focus & Learning
@@ -367,17 +359,14 @@ Real-time exploit detection for AzerothCore game servers.
 🚀 Currently Building:
   - Next-generation WordPress plugins with React
   - Multiplayer real-time gaming systems
-  - AI-powered developer tools
   - High-performance backend systems
 
 📚 Currently Learning:
-  - Advanced Agentic AI Workflows
   - Distributed systems at scale
   - Rust for system programming
   - WebAssembly for performance
 
 🔍 Currently Exploring:
-  - LLM fine-tuning for code generation
   - Real-time collaboration systems
   - Cloud-native architecture patterns
 
